@@ -13,4 +13,4 @@ ADD conf.hcl /home/local/
 ADD init.sh /home/local/
 RUN chmod +x ./init.sh
 
-ENTRYPOINT ["/home/local/init.sh"]
+CMD ["/home/local/init.sh"]
